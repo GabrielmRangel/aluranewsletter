@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        vast: ['Vast Shadow', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body class="h-screen">
     <div class="bg-gradient-to-r from-blue-300 to-slate-400 p-10 w-1/8 absolute top-1/2 left-1/2 -translate-y-2/4 -translate-x-2/4">
-        <p class="font-black text-4xl">Gabriel Mendes Rangel</p>
+        <p class="font-black text-white text-4xl font-vast">Gabriel Mendes Rangel</p>
         <p class="text-2xl">Desenvolvedor Front-end</p>
     </div>
 </body>
