@@ -14,7 +14,12 @@
             theme: {
                 extend: {
                     colors: {
-                        primaria: '#dae6f2'
+                        primaria: '#dae6f2',
+                        azul: {
+                            claro: '#C5DFFF',
+                            escuro: '#061E3C',
+                            hover: '#1057B0'
+                        }
                     },
                     fontFamily: {
                         vast: ['Vast Shadow', 'cursive']
@@ -24,7 +29,7 @@
         }
     </script>
 </head>
-<body class="h-screen flex justify-center items-center">
+<body class="bg-gradient-to-r from-azul-claro to-azul-hover h-screen flex justify-center items-center">
     
     <div class="flex w-fit m-auto my-10 shadow-2xl">
         <img class="h-44" src="https://img.freepik.com/free-photo/website-development-developer-working-program-codes-office-computer-program-programmer-workplace-programming-code-software-source-code_372999-389.jpg?w=1380" alt="codigo json">
@@ -33,7 +38,7 @@
             <p class="font-black text-primaria text-4xl font-vast">Gabriel Mendes Rangel</p>
             <p class="text-2xl">Desenvolvedor Front-end</p>
             <ul class="flex gap-6">
-                <li><a href="https://br.linkedin.com/in/gabriel-mendes-rangel-5488531a3?trk=people-guest_people_search-card" target="_blank" class="hover:font-black hover:text-primaria">Linkedin</a></li>
+                <li><a href="https://br.linkedin.com/in/gabriel-mendes-rangel-5488531a3?trk=people-guest_people_search-card" target="_blank" class="hover:font-black hover:text-primaria">LinkedIn</a></li>
                 <li><a href="mailto:gabrielmendesrangel2@gmail.com" class="hover:font-black hover:text-primaria">Email</a></li>
                 <li><a href="https://github.com/GabrielmRangel" target="_blank" class="hover:font-bold hover:text-primaria">Github</a></li>
               </ul>
